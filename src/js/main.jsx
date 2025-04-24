@@ -16,10 +16,10 @@ import '@fortawesome/react-fontawesome'
 import Home from './components/Home';
 import SecondsCounter from './components/SecondsCounter';
 
-let time = 0
+let time = 86400
 
 function counter(){
 ReactDOM.createRoot(document.getElementById('root')).render(<SecondsCounter seconds={time} />) // 0
-time++
+time--
 }
 setInterval(counter, 1000)
