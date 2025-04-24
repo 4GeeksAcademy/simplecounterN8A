@@ -9,3 +9,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.structure {
+        display: flex;
+        margin: auto;
+        padding: 5px;
+        justify-content: space-between;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-size: 90px;
+       width: 80%;
+}
+
+.digit {
+    background-color: rgb(21, 20, 20);
+    box-shadow: inset 1px 2px 2px 1px rgb(53, 53, 59);
+    padding: 20px;
+    margin: 5px;
+    margin-left: 10px;
+    width: 20%;
+    height: 160px;
+    border-radius: 9px;
+}
